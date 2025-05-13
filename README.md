@@ -1,1 +1,4 @@
 Hello! This repository is the implementation of the paper "An Efficient Model Maintenance Approach for MLOps". SimReuse notebook help you to 1) store you previously trained models, 2) reuse them if your test data distribution in the production environment is similar to the one of the previous training data distributions. 
+
+To run the SimReuse notebook you need to provide the following items as input:
+1) dataset (a pandas dataframe), 2) window_size (an integer number), 3) target_column (name of your target column as a string), 4) windows_similarity_dictionary (a dictionary that its keys are the index of preceding data segments with similar data distribution to the data segment distribution with index of value ), forecasting_approach (a string that identifies the forecasting method you want to use)
