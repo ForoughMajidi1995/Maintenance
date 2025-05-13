@@ -5,4 +5,9 @@ Hello! This repository is the implementation of the paper "An Efficient Model Ma
 * The GRU folder contains the implementations and the results of training GRU models and testing them on five different datasets.
 * The lstm folder contains the implementations and the results of training lstm models and testing them on five different datasets.
 * The RF folder contains the implementations and the results of training Random Forest models and testing them on five different datasets.
-* * The XGB folder contains the implementations and the results of training XGB models and testing them on five different datasets.
+* The XGB folder contains the implementations and the results of training XGB models and testing them on five different datasets.
+* Variable_to_specify_name_of_the_dataset files include the variables related to each dataset, like target column name, start_date, end_date, and so on. You need to make a similar .py file for your own dataset.
+* training_utilities file includes the utilities to preprocess and train the models.
+* training_utilities_2nd_part file includes the utilities to apply ACF function, find seasonalities, training LSTM and GRU models and so on.
+* 
+  
