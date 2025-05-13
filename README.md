@@ -1,0 +1,1 @@
+Hello! This repository is the implementation of the paper "An Efficient Model Maintenance Approach for MLOps". SimReuse notebook help you to 1) store you previously trained models, 2) reuse them if your test data distribution in the production environment is similar to the one of the previous training data distributions. 
